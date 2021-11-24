@@ -11,8 +11,8 @@
     <meta name="googlebot" content="index, follow">
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="бухгалтерия налоговое консультирование юридические услуги аудит срочная отчетность правовое сопровождение">
+    <meta name="description" content="Бухгалтерское обслуживание, налоговое консультирование, сдача отчетности, юридическое консультирование. Мы предлагаем организациям и частным лицам широкий спектр финансовых и правовых услуг с гарантией результата">
     
     <title>Ability - Бухгалтерское обслуживание</title>
 </head>
@@ -134,13 +134,23 @@
     c0,0,18.069,12.44,20,13.12C22.57,22.71,40.5,10.1,40.5,10.1L40.471,9.971z"/>
 </symbol>
 
+<symbol id='up' viewBox="0 0 512 512">
+    <path d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z"></path>
+</symbol>
+
+<symbol id='checkmark' viewBox="0 0 533.333 533.334">
+    <g>
+    <path d="M450,58.333l-250,250L83.333,191.667L0,275l200,200l333.333-333.333L450,58.333z"/>
+</g>
+</symbol>
+
   </svg>
 
 
-<header class="header">
+<header class="header" id="scroll-up">
     <div class="container  container-header">
 
-        <div class="row">
+        <div class="row g-0">
 
             <div class="col">
              <div class="header__block">
@@ -180,26 +190,33 @@
     </div>
 </header>
 
-<nav class="nav">
+<nav class="nav" id="navigation">
     <div class="container">
+
+       <div class="hamburger">
+           <span></span>
+           <span></span>
+           <span></span>
+       </div>
+
         <div class="row">
 
-            <div class="col-2">
+            <div class="col-12 col-lg-2">
                 <a class="nav__logo">
                     <img src="assets/img/logo.png" alt="Ability logo">
                 </a>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-10">
                <div class="nav__list">
-                   <a href="" class="nav__item">главная</a>
-                   <a href="" class="nav__item">о нас</a>
-                   <a href="" class="nav__item">услуги</a>
-                   <a href="" class="nav__item">наши преимущества</a>
-                   <a href="" class="nav__item">цены</a>
-                   <a href="" class="nav__item">отзывы</a>
-                   <a href="" class="nav__item">контакты</a>
-                   <a href="" class="nav__item">новости</a>
+                   <a href="index.html" class="nav__item">главная</a>
+                   <a href="#us" class="nav__item">о нас</a>
+                   <a href="#services" class="nav__item">услуги</a>
+                   <a href="#advantages" class="nav__item">наши преимущества</a>
+                   <a href="#pricing" class="nav__item">цены</a>
+                   <a href="#clients" class="nav__item">отзывы</a>
+                   <a href="#contacts" class="nav__item">контакты</a>
+                   <a href="#news" class="nav__item">новости</a>
                </div>
             </div>
 
@@ -209,20 +226,20 @@
 
 <section class="intro">
 
-    <div class="intro__block">
+    <div class="intro__block wow fadeInLeft">
        <div class="intro__inner">
             <h1 class="intro__title">
                 БУХГАЛТЕРИЯ. ПРАВО. КОНСУЛЬТИРОВАНИЕ. ЭКСПЕРТИЗА
             </h1>
-            <div class="intro__text">
+<!--            <div class="intro__text">
                 мы в ответе за тех, кто нам доверяет
-            </div>
-            <a class="intro__button" href="index.html">подробнее</a>
+            </div>-->
+            <a class="intro__button" href="#contacts">подробнее</a>
         </div>
     </div>
 </section>
 
-<section class="about-us">
+<section class="about-us" id="us">
     <div class="container">
 
         <div class="about-us__intro">о нас</div>
@@ -232,8 +249,8 @@
         <div class="about-us__describtion">Мы предлагаем организациям и частным лицам широкий спектр финансовых и правовых услуг с  гарантией результата </div>
 
        <div class="about-us__wrapper">
-            <div class="row">
-                <div class="col">
+            <div class="row gy-5">
+                <div class="col-12 col-lg">
                     <div class="about-us__block">
                        <article class="about-us__article">
                             <h3 class="about-us__subtitle">Бухгалтерия</h3>
@@ -242,7 +259,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg">
                     <div class="about-us__block">
                        <article class="about-us__article">
                             <h3 class="about-us__subtitle">Налоговое консультирование</h3>
@@ -251,7 +268,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg">
                     <div class="about-us__block">
                        <article class="about-us__article">
                             <h3 class="about-us__subtitle">Юридические услуги</h3>
@@ -266,11 +283,11 @@
 </section>
 
 
-<section class="services">
+<section class="services wow fadeInUp" id="services">
     <div class="container">
         <h2 class="subtitle--white">НАШИ УСЛУГИ</h2>
         <div class="servces__wrapper">
-            <div class="row row-cols-3">
+            <div class="row row-cols-1 row-cols-md-3">
                 <div class="col">
                    <div class="services__block">
                         <img class="services__img" src="assets/img/udalennaya_bukhgalteriya_2x_1x.jpg" alt="УДАЛЕННАЯ БУХГАЛТЕРИЯ">
@@ -320,23 +337,23 @@
     </div><!--/.container-->
 </section>
 
-<section class="advantages">
+<section class="advantages" id="advantages">
     <div class="container">
 
-      <h2 class="subtitle">НАШИ ПРЕИМУЩЕСТВА</h2>
+      <h2 class="subtitle wow fadeInUp">НАШИ ПРЕИМУЩЕСТВА</h2>
 
         <div class="advantages__wrapper">
 
             <div class="row">
 
-                <div class="col-5">
+                <div class="col-sm-5">
                     <div class="advantages__block">
                         <img class="advantages__img" src="assets/img/flRm0z3MEoA_2x_2x_1x.jpg" alt="Преимущества">
                     </div>
                 </div>
 
-                <div class="col-7">
-                    <div class="advantages__card">
+                <div class="col-sm-7">
+                    <div class="advantages__card wow fadeInUp">
                         <div class="advantages__card-top">
                             <svg class="advantages__icon">
                              <use xlink:href='#check'></use>
@@ -346,7 +363,7 @@
                         <div class="advantages__card-bottom">Работу персонального бухгалтера контролирует руководитель отдела бухгалтерского аутсорсинга</div>
                     </div>
 
-                    <div class="advantages__card">
+                    <div class="advantages__card wow fadeInUp" data-wow-offset="20">
                         <div class="advantages__card-top">
                             <svg class="advantages__icon">
                              <use xlink:href='#check'></use>
@@ -356,7 +373,7 @@
                         <div class="advantages__card-bottom">Мы не боимся материальной ответственности, потому что уверены в качестве своей работы</div>
                     </div>
 
-                    <div class="advantages__card">
+                    <div class="advantages__card wow fadeInUp" data-wow-offset="20">
                         <div class="advantages__card-top">
                             <svg class="advantages__icon">
                              <use xlink:href='#check'></use>
@@ -372,16 +389,16 @@
     </div><!--/.container-->
 </section>
 
-<section class="pricing">
+<section class="pricing wow fadeInUp" data-wow-duration="2s" id="pricing">
     <div class="container-sm container__pricing">
         <h2 class="subtitle--white">СКОЛЬКО СТОЯТ НАШИ УСЛУГИ?</h2>
 
         <div class="pricing__wrapper">
 
-            <div class="row .no-gutters">
+            <div class="row g-0">
 
                 <div class="col-md-4 no-gutters">
-                    <div class="pricing__block .no-gutters">
+                    <div class="pricing__block no-gutters wow fadeInUp" data-wow-offset="110" data-wow-delay="1s">
                         <div class="pricing__article">
                             <div class="pricing__inner">
                                 <h4 class="pricing__subtitle">
@@ -402,14 +419,14 @@
                                     <li class="pricing__item">501-700 / 41000 р</li>
                                     <li class="pricing__item">701-1000 / 45000 р</li>
                                 </ul>
-                                <a class="pricing__button" href="">Уточнить</a>
+                                <a class="pricing__button" href="#contacts">Уточнить</a>
                             </div> <!--/.pricing__inner-->
                         </div>
                     </div> <!--/.pricing__block-->
                 </div>
 
                 <div class="col-md-4 ">
-                     <div class="pricing__block">
+                     <div class="pricing__block wow fadeInUp" data-wow-offset="110" data-wow-delay="1s">
                         <div class="pricing__article">
                             <div class="pricing__inner">
                                 <h4 class="pricing__subtitle">БУХГАЛТЕРСКИЙ АУТСОРСИНГ ДЛЯ УСН
@@ -429,14 +446,14 @@
                                     <li class="pricing__item">501-700 / 25000 р</li>
                                     <li class="pricing__item">701-1000 / 27000 р</li>
                                 </ul>
-                                <a class="pricing__button" href="">Уточнить</a>
+                                <a class="pricing__button" href="#contacts">Уточнить</a>
                             </div> <!--/.pricing__inner-->
                         </div>
                     </div> <!--/.pricing__block-->
                 </div>
 
                 <div class="col-md-4 ">
-                     <div class="pricing__block">
+                     <div class="pricing__block wow fadeInUp" data-wow-offset="110" data-wow-delay="1s">
                         <div class="pricing__article">
                             <div class="pricing__inner">
                                 <h4 class="pricing__subtitle">ЗАРАБОТНАЯ ПЛАТА И КАДРОВЫЙ УЧЕТ
@@ -456,14 +473,14 @@
                                     <li class="pricing__item">61-70 / 58200 р</li>
                                     <li class="pricing__item">71-80 / 66200 р</li>
                                 </ul>
-                                <a class="pricing__button" href="">Уточнить</a>
+                                <a class="pricing__button" href="#contacts">Уточнить</a>
                             </div> <!--/.pricing__inner-->
                         </div>
                     </div> <!--/.pricing__block-->
                 </div>
 
                 <div class="col-md-4">
-                     <div class="pricing__block">
+                     <div class="pricing__block wow fadeInUp" data-wow-offset="110">
                         <div class="pricing__article">
                             <div class="pricing__inner">
                                 <h4 class="pricing__subtitle">НАЛОГОВОЕ КОНСУЛЬТИРОВАНИЕ
@@ -475,14 +492,14 @@
                                     <li class="pricing__item">Налоговое планирование от 50000 р</li>
                                     <li class="pricing__item">Декларации 3-НДФЛ от 3000 р</li>
                                 </ul>
-                                <a class="pricing__button" href="">Уточнить</a>
+                                <a class="pricing__button" href="#contacts">Уточнить</a>
                             </div> <!--/.pricing__inner-->
                         </div>
                     </div> <!--/.pricing__block-->
                 </div>
 
                 <div class="col-md-4">
-                    <div class="pricing__block">
+                    <div class="pricing__block wow fadeInUp" data-wow-offset="110">
                         <div class="pricing__article">
                             <div class="pricing__inner">
                                 <h4 class="pricing__subtitle">ЮРИДИЧЕСКИЕ УСЛУГИ
@@ -495,14 +512,14 @@
                                     <li class="pricing__item">Абонентское обслуживание от 15000 р</li>
                                     <li class="pricing__item">Ликвидация бизнеса от 35000 р</li>
                                 </ul>
-                                <a class="pricing__button" href="">Уточнить</a>
+                                <a class="pricing__button" href="#contacts">Уточнить</a>
                             </div> <!--/.pricing__inner-->
                         </div>
                     </div> <!--/.pricing__block-->
                 </div>
 
                 <div class="col-md-4">
-                    <div class="pricing__block">
+                    <div class="pricing__block wow fadeInUp" data-wow-offset="110">
                         <div class="pricing__article">
                             <div class="pricing__inner">
                                 <h4 class="pricing__subtitle">ДОСТАВКА ПО МОСКВЕ И МОСКОВСКОЙ ОБЛАСТИ
@@ -513,7 +530,7 @@
                                     <li class="pricing__item">Мотокурьер от 500 р</li>
                                     <li class="pricing__item">Автокурьер от 750 р</li>
                                 </ul>
-                                <a class="pricing__button" href="">Уточнить</a>
+                                <a class="pricing__button" href="#contacts">Уточнить</a>
                             </div> <!--/.pricing__inner-->
                         </div>
                     </div> <!--/.pricing__block-->
@@ -525,8 +542,8 @@
     </div>
 </section>
 
-<section class="clients">
-    <h2 class="subtitle">НАШИ КЛИЕНТЫ О НАС</h2>
+<section class="clients" id="clients">
+    <h2 class="subtitle wow fadeInUp">НАШИ КЛИЕНТЫ О НАС</h2>
 
     <div class="clients__slick-wrapper">
 
@@ -593,20 +610,21 @@
 
 </section>
 
-<section class="contacts">
+<section class="contacts" id="contacts">
     <div class="container">
-        <h2 class="subtitle">СВЯЖИТЕСЬ С НАМИ И МЫ ОТВЕТИМ НА ВСЕ ВАШИ ВОПРОСЫ</h2>
+        <h2 class="subtitle wow fadeInUp">СВЯЖИТЕСЬ С НАМИ И МЫ ОТВЕТИМ НА ВСЕ ВАШИ ВОПРОСЫ</h2>
 
         <div class="contacts__wrapper">
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-md-6 relative">
+
                     <div class="contacts__block">
                         <h3 class="contacts__subtitle--sm">Обратная связь</h3>
                         <div class="contacts__decription">Поделитесь мнением о нашей работе или задайте нам любой интересующий вас вопрос в поле комментарий</div>
                     </div>
                     <div class="form">
-                        <form action="action_page.php" method="POST">
+                        <form action="#">
                             <div class="form_wrapper">
 
                             <input type="text" id="fname" name="firstname" placeholder="Имя" required>
@@ -624,11 +642,19 @@
                               <label for="click" class="text"> Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в <button class="modal__link" id="myBtn">Согласии на обработку персональных данных *</button>  </label>
                             </div>
 
-                            <button type="submit" class="signup">Отправить </button>
+                            <button type="submit" class="signup" id="signup">Отправить </button>
                             </div>
                         </form>
                     </div>
+
+                <div class="thankyou" id="thanks">
+                   <div class="thankyou__wrapper">
+                        <img class="thankyou__icon" src="assets/img/check_form.svg" alt="checkform">
+                        <div class="thankyou__descr">Спасибо, ваше сообщение отправлено.</div>
+                    </div>
                 </div>
+
+                </div><!--./col-md-6-->
 
                 <div class="col-md-6">
 
@@ -725,24 +751,24 @@
 
 </section>
 
-<section class="news">
-   <h2 class="subtitle--white subtitle--news">НОВОСТИ</h2>
+<section class="news" id="news">
+   <h2 class="subtitle--white subtitle--news wow fadeInUp">НОВОСТИ</h2>
 
     <div class="container">
 
-        <div class="news__block">
+        <div class="news__block wow fadeInUp" data-wow-delay="1s">
             <div class="news__subtitle">ЕЩЕ ОДНА НОВОСТЬ</div>
             <div class="news__text">Проверочное сообщение для новости</div>
             <a class="news__link" href="news_01_00.html">ПОДРОБНЕЕ</a>
         </div>
 
-        <div class="news__block">
+        <div class="news__block wow fadeInUp" data-wow-delay="1s">
             <div class="news__subtitle">СУД: ЕСЛИ ОРГАНИЗАЦИЯ ВВОДИТ НОВУЮ ДОЛЖНОСТЬ, ЕЕ НУЖНО ПРЕДЛАГАТЬ ПРИ СОКРАЩЕНИИ</div>
             <div class="news__text">Спор возник из-за сокращения работника. Первая инстанция и апелляция не увидели нарушений в увольнении. Однако кассация напомнила, что нужно предлагать еще и ставки, которые вводят в штатное расписание в период сокращения. Работник утверждал, что на таку...</div>
             <a class="news__link" href="news_01_01.html">ПОДРОБНЕЕ</a>
         </div>
 
-        <div class="news__block">
+        <div class="news__block wow fadeInUp" data-wow-delay="1s">
             <div class="news__subtitle">СУДЫ ОТКАЗАЛИ В ВЫЧЕТЕ НДС ПО ТОВАРАМ, КУПЛЕННЫМ У БАНКРОТА В ТЕКУЩЕЙ ДЕЯТЕЛЬНОСТИ</div>
             <div class="news__text">АС Волго-Вятского округа согласился с нижестоящими судами в том, что организация не имела права на вычет НДС по товарам, которые приобрела у контрагента-банкрота. Компания ссылалась на позицию КС РФ, а также на то, что партнер производил товары в текущей ...</div>
             <a class="news__link" href="news_01_02.html">ПОДРОБНЕЕ</a>
@@ -755,7 +781,7 @@
     <div class="container">
         <div class="footer__wrapper">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInLeft">
                     <h3 class="footer__subtitle">НАШИ КОНТАКТЫ</h3>
 
                     <div class="footer__line">
@@ -790,34 +816,44 @@
                 <div class="col-md-6">
 
                     <div class="row">
-                        <div class="col">
+                        <div class="col wow fadeInRight">
                             <h3 class="footer__subtitle">УСЛУГИ</h3>
-                            <a class="footer__sublink" href="">Наши услуги</a>
+                            <a class="footer__sublink" href="#services">Наши услуги</a>
                         </div>
-                        <div class="col">
+                        <div class="col wow fadeInRight" data-wow-delay="0.5s">
                             <h3 class="footer__subtitle">ЦЕНЫ</h3>
-                            <a class="footer__sublink" href="">Наши цены</a>
+                            <a class="footer__sublink" href="#pricing">Наши цены</a>
                         </div>
-                        <div class="col">
+                        <div class="col wow fadeInRight" data-wow-delay="1s">
                             <h3 class="footer__subtitle">ОБРАТНАЯ СВЯЗЬ</h3>
-                            <a class="footer__sublink" href="">Задать вопрос</a>
+                            <a class="footer__sublink" href="#contacts">Задать вопрос</a>
                         </div>
 
                     </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
+                </div><!--/.col-md-6-->
+
+            </div><!--/.row-->
+        </div><!--/.footer__wrapper-->
+    </div><!--/.container-->
 </footer>
+
+<a class="pageup" href="#scroll-up">
+    <svg class="pageup__icon">
+        <use xlink:href='#up'></use>
+    </svg>
+</a>
+
 
 
 
 <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="assets/js/slick.min.js"></script>
+<script type="text/javascript" src="assets/js/wow.min.js"></script>
 <script type="text/javascript" src="assets/js/app.min.js"></script>
 
 
 </body>
 </html>
+
